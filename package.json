@@ -1,0 +1,15 @@
+{
+  "name": "sensible-led-trafficlight",
+  "version": "0.0.1",
+  "description": "",
+  "main": "sensible-app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hiratori Hayato (flatbird.hiratori@gmail.com)",
+  "license": "BSD",
+  "dependencies": {
+    "mime": "~1.3.4",
+    "websocket": "~1.0.18"
+  }
+}

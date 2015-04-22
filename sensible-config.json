@@ -1,0 +1,9 @@
+{
+	"_comment" : "config items, reserved names and types",
+
+	"name" : "LED Traffic Light",
+	"type" : "_sensible._tcp.local",
+	"port" : 3088,
+	"description" : "turn on/off and blink LEDs",
+	"hostname" : "ledtrafficlight.local"
+}
