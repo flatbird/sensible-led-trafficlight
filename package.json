@@ -10,6 +10,7 @@
   "license": "BSD",
   "dependencies": {
     "mime": "~1.3.4",
+    "rpio": "^0.4.3",
     "websocket": "~1.0.18"
   }
 }
