@@ -3,12 +3,20 @@
   display: -webkit-box;
   display: box;
   -moz-box-pack: center;
+  -webkit-box-pack: center;
+  box-pack: center;
   width: 100%;
 }
 .traffic-light .frame {
   display: -moz-box;
+  display: -webkit-box;
+  display: -moz-box;
   -moz-box-align: center;
+  -webkit-box-align: center;
+  box-align: center;
   -moz-box-pack: center;
+  -webkit-box-pack: center;
+  box-pack: center;
   width: 270px;
   height: 96px;
   background-color: lightgray;
