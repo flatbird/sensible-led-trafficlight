@@ -14,6 +14,9 @@ var SwitchLightView = function(elm, onClass, offClass) {
 
 SwitchLightView.prototype._onClick = function () {
 	this._setLight(!this.enabled);
+	if (this.onChange) {
+		this.onChange(this);
+	}
 }
 
 SwitchLightView.prototype._setLight = function (enabled) {
@@ -23,9 +26,6 @@ SwitchLightView.prototype._setLight = function (enabled) {
 	this.el.addClass(toAdd);
 	this.el.removeClass(toRemove);
 	this._handleBlink();
-	if (this.onChange) {
-		this.onChange(this);
-	}
 }
 
 SwitchLightView.prototype._startBlink = function () {

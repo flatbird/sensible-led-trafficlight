@@ -23,6 +23,7 @@ $(function () {
 		swRed.change(onChange);
 		blink.change(onBlinkChange);
 		document.addEventListener('visibilitychange', onVisibilityChange, false);
+		$(window).unload(turnOffAll);
 	}
 
 	function onBlinkChange() {
