@@ -3,18 +3,18 @@
     "name": "green",
     "type": "string",
     "readonly": false,
-    "value": "on"
+    "value": "off"
   },
   {
     "name": "yellow",
     "type": "string",
     "readonly": false,
-    "value": "on"
+    "value": "off"
   },
   {
     "name": "red",
     "type": "string",
     "readonly": false,
-    "value": "on"
+    "value": "off"
   }
 ]
