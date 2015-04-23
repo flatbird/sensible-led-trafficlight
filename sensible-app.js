@@ -24,6 +24,11 @@ app.prototype.onBeforeStart = onBeforeStart;
 app.prototype.onAfterStart = onAfterStart;
 var setProperties = app.prototype.properties_set;
 app.prototype.properties_set = onSetProperties;
+// skip mDNS
+app.prototype.start = function(inCallback) {
+	this.startHTTPServer();
+	inCallback.call(this);
+};
 
 sensible.ApplicationFactory.createApplication(function (error) {
 	if (error) {
