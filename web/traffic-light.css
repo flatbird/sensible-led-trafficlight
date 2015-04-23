@@ -1,0 +1,40 @@
+.traffic-light {
+  display: -moz-box;
+  display: -webkit-box;
+  display: box;
+  -moz-box-pack: center;
+  width: 100%;
+}
+.traffic-light .frame {
+  display: -moz-box;
+  -moz-box-align: center;
+  -moz-box-pack: center;
+  width: 270px;
+  height: 96px;
+  background-color: lightgray;
+  border-radius: 40px;
+}
+.traffic-light .light {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  margin: 4px 2px;
+}
+.red {
+  background-color: #f00;
+}
+.yellow {
+  background-color: #ff0;
+}
+.green {
+  background-color: #0f0;
+}
+.red-off {
+  background-color: #fdd;
+}
+.yellow-off {
+  background-color: #ffd;
+}
+.green-off {
+  background-color: #dfd;
+}
